@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-bind v command-prompt -p "Search panes for:" "run-shell '$HOME/.tmux/plugins/tmux-search-panes/bin/search-panes.sh %1'"
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+tmux bind v command-prompt -p "Search panes for:" "run-shell '${CURRENT_DIR}/bin/search-panes.sh %1'"
