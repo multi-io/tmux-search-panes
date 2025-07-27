@@ -31,3 +31,6 @@ Reload configuration, then press `prefix` + `I`.
 
 Clone the repo somewhere, add `run-shell ~/clone/path/tmux-search-panes.tmux` to your `tmux.conf`.
 
+### License
+
+[MIT](LICENSE.md)
